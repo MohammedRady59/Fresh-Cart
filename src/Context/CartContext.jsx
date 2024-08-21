@@ -92,7 +92,7 @@ export default function CartContectProvider({ children }) {
       console.log(cartDetail);
       setLoading(true);
       const res = await axiosInstance.post(
-        `/api/v1/orders/checkout-session/${cartDetail?._id}?url=http://localhost:5173`,
+        `/api/v1/orders/checkout-session/${cartDetail?._id}?url=https://fresh-cart-seven-gilt.vercel.app/`,
         {
           shippingAddress,
         },

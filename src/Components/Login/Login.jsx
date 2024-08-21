@@ -67,7 +67,7 @@ function Login() {
     </div>
   ));
   return (
-    <div className="max-w-4xl mx-auto py-2" data-aos="fade-left">
+    <div className="max-w-4xl mx-auto py-2 px-3 md:px-0 " data-aos="fade-left">
       <div>
         <h1 className="text-3xl font-semibold ">Login Now</h1>
       </div>
@@ -88,7 +88,7 @@ function Login() {
       <div>
         <h2 className="text-center text-xl my-2 font-semibold">
           Don&#39;t have an account?{" "}
-          <Link to="/register" className="text-green-400">
+          <Link to="/register" className="text-green-400 underline">
             Register Now
           </Link>
         </h2>
